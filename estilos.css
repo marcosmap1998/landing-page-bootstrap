@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: url(img/mockup-2443050_640.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #000;
+}
+
+.contenedor{
+    margin-top: 10%;
+}
+
+.form-box{
+    width: 60%;
+    align-self: center;
+    text-align: center;
+}
+
+.form-box form input,
+.form-box form textarea{
+    background: none;
+    resize: none;
+    border: 1px solid #000;
+}
+
+.form-control{
+    background: transparent !important;
+    color: #000 !important;
+}
+
+@media screen and (max-width: 500px){
+    .form-box h1{
+        font-size: 22px;
+    }
+}
